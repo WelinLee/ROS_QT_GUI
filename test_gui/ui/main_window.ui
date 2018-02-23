@@ -11,11 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>QRosApp</string>
+   <string>RosQtGUI</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../resources/images.qrc">
-    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+    <normaloff>:/images/logo.png</normaloff>:/images/logo.png</iconset>
   </property>
   <property name="locale">
    <locale language="English" country="Australia"/>
