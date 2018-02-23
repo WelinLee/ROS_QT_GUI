@@ -1,0 +1,13 @@
+<library path="lib/librqt_mypkg">
+    <class name="rqt_mypkg/MyPlugin" type="rqt_mypkg_cpp::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+        <description>
+            A plugin for myGUI
+        </description>
+        <qtgui>
+            <label>rqt first C++ plugin</label>
+            <icon type="theme">system-help</icon>
+	    <statustip>Great user to provide real value.</statustip>
+        </qtgui>
+    </class>
+</library>
+
