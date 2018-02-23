@@ -55,6 +55,6 @@ include_directories(
 )
 
 ## Declare a C++ executable
-add_executable(${PROJECT_NAME}_node src/main.cpp src/client_plugin.cpp src/client_plugin.h src/client_plugin.ui)
+add_executable(${PROJECT_NAME}_node src/main.cpp src/qt_ros_test.cpp src/qt_ros_test.h src/qt_ros_test.ui)
 target_link_libraries(${PROJECT_NAME}_node ${catkin_LIBRARIES} Qt5::Widgets)
 
