@@ -10,7 +10,7 @@
 ## TODO
 ```sh
     $ mkdir -p catkin_ws/src
-    $ cd catkin_es/src
+    $ cd catkin_ws/src
 ```
 
 git clone the project from the corrent URL
