@@ -7,6 +7,10 @@
 * In the test_gui folder, it just modified the example in catkin_create_qt_pkg depending on qt_build.
 * In the rqt_mypkg folder, it is the C++ rqt_plugin test depending on rqt_gui_cpp.
 * In the qt_ros_test folder, it combines ROS with Qt library.
+
+The above three are written in C++ programmer.
+The following two below are written in Python.
+
 * In the ros_pyqt folder, it use PyQt to implement the GUI.
 * In the pyqt_gui folder, it use PyQt and python_qt_binding to implement the GUI.
 
