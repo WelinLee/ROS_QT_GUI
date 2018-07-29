@@ -31,9 +31,15 @@ git clone the project from the corrent URL
     $ source devel/setup.bash
 ```
 
-Then, rosrun test_gui test_gui *or* rosrun qt_ros_test qt_ros_test_node *or* rosrun qt4rosgui qt4rosgui_node.
+Then, rosrun test_gui test_gui *or* rosrun qt_ros_test qt_ros_test_node *or* rosrun qt4rosgui qt4rosgui_node. The effect is below:
 
-To run the rqt_mypkg, just open rqt, and the "rqt first C++ plugin" could be found in the Plugins menu.
+![ROS_QT_GUI](docs/images/test_gui.png)
 
-To run ros_pyqt *or* pyqt_gui, just using the command *python ros_pyqt* or *python pyqt_gui*.
+To run the rqt_mypkg, just open rqt, and the "rqt first C++ plugin" could be found in the Plugins menu. The effect is below:
+
+![ROS_QT_GUI](docs/images/rqt_mypkg.png)
+
+To run ros_pyqt *or* pyqt_gui, just using the command *python ros_pyqt* or *python pyqt_gui*. The effect is below:
+
+![ROS_QT_GUI](docs/images/pyqt_gui.png)
 
