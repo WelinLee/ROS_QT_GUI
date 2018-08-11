@@ -11,11 +11,13 @@
 The above three are written in C++ programmer.
 The following two below are written in Python.
 
-* In the ros_pyqt folder, it use PyQt to implement the GUI.
-* In the pyqt_gui folder, it use PyQt and python_qt_binding to implement the GUI.
+* In the ros_pyqt folder, it uses PyQt to implement the GUI.
+* In the pyqt_gui folder, it uses PyQt and python_qt_binding to implement the GUI.
 
 
-In the qt4rosgui folder, it use Qt4 libraries to implement the ROS-GUI not depends on qt-ros package.
+In the qt4rosgui folder, it uses Qt4 libraries to implement the ROS-GUI not depends on qt-ros package.
+
+In the librviz_test, it uses librviz to build a visualizer tool for display using qt4.
 
 ## TODO
 ```sh
