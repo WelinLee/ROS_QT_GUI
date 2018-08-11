@@ -4,20 +4,20 @@
 
 ## Description
 * In this project, three approaches are provided to implement ROS&Qt GUI and another two projects for PyQt GUI.
-* In the test_gui folder, it just modified the example in catkin_create_qt_pkg depending on qt_build.
-* In the rqt_mypkg folder, it is the C++ rqt_plugin test depending on rqt_gui_cpp.
-* In the qt_ros_test folder, it combines ROS with Qt library.
+* In the test_gui package, it just modified the example in catkin_create_qt_pkg depending on qt_build.
+* In the rqt_mypkg package, it is the C++ rqt_plugin test depending on rqt_gui_cpp.
+* In the qt_ros_test package, it combines ROS with Qt library.
 
 The above three are written in C++ programmer.
 The following two below are written in Python.
 
-* In the ros_pyqt folder, it uses PyQt to implement the GUI.
-* In the pyqt_gui folder, it uses PyQt and python_qt_binding to implement the GUI.
+* In the ros_pyqt package, it uses PyQt to implement the GUI.
+* In the pyqt_gui package, it uses PyQt and python_qt_binding to implement the GUI.
 
 
-In the qt4rosgui folder, it uses Qt4 libraries to implement the ROS-GUI not depends on qt-ros package.
+In the qt4rosgui package, it uses Qt4 libraries to implement the ROS-GUI not depends on qt-ros package.
 
-In the librviz_test, it uses librviz to build a visualizer tool for display using qt4.
+In the librviz_test package, it uses librviz to build a visualizer tool for display using qt4.
 
 ## TODO
 ```sh
