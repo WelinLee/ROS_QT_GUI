@@ -2,6 +2,9 @@
 - **Welin**  2018.02.23
 - modified in 2018.03.31
 
+## Overview
+In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, such as qt4, qt5, pyqt4.
+
 ## Description
 * In this project, three approaches are provided to implement ROS&Qt GUI and another two projects for PyQt GUI.
 * In the test_gui package, it just modified the example in catkin_create_qt_pkg depending on qt_build.
