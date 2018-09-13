@@ -22,6 +22,8 @@ In the qt4rosgui package, it uses Qt4 libraries to implement the ROS-GUI not dep
 
 In the librviz_test package, it uses librviz to build a visualizer tool for display using qt4.
 
+For a more complicated example, please see the package dyn_cfg_gui, it is the implementation for rqt_reconfigure using C++ and qt5. Also see [ROS_dynamic_reconfig](https://github.com/WelinLee/ROS_dynamic_reconfig "ROS_dynamic_reconfig") for detail.
+
 ## TODO
 ```sh
     $ mkdir -p catkin_ws/src
@@ -48,3 +50,6 @@ To run ros_pyqt *or* pyqt_gui, just using the command *python ros_pyqt* or *pyth
 
 ![ROS_QT_GUI](docs/images/pyqt_gui.png)
 
+To run the rosrun dyn_cfg_gui dyn_cfg_gui, the effect is shown below.
+
+![ROS_QT_GUI](docs/images/rqt_recfg.png)
