@@ -50,6 +50,10 @@ To run ros_pyqt *or* pyqt_gui, just using the command *python ros_pyqt* or *pyth
 
 ![ROS_QT_GUI](docs/images/pyqt_gui.png)
 
+If you have a mobile robot such as TurtleBot or else, the slam navigation status could be shown as below. Just run ros vizlib_test vizlib_test_node.
+
+![ROS_QT_GUI](docs/images/librviz_gui.jpg)
+
 To run the rosrun dyn_cfg_gui dyn_cfg_gui, the effect is shown below.
 
 ![ROS_QT_GUI](docs/images/rqt_recfg.png)
