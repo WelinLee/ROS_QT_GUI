@@ -1,9 +1,9 @@
 ## Author
 - **Welin**  2018.02.23
-- modified in 2018.03.31
+- modified in 2018.10.31
 
 ## Overview
-In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, such as qt4, qt5, pyqt4.
+In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, such as qt4, qt5, pyqt4. Also ROS could be treated as a open-source library to extend some other module by using CMAKE, not just using catkin_make/rosbuild, to make the development more flexible.
 
 ## Description
 * In this project, three approaches are provided to implement ROS&Qt GUI and another two projects for PyQt GUI.
@@ -22,7 +22,7 @@ In the qt4rosgui package, it uses Qt4 libraries to implement the ROS-GUI not dep
 
 In the librviz_test package, it uses librviz to build a visualizer tool for display using qt4.
 
-For a more complicated example, please see the package dyn_cfg_gui, it is the implementation for rqt_reconfigure using C++ and qt5. Also see [ROS_dynamic_reconfig](https://github.com/WelinLee/ROS_dynamic_reconfig "ROS_dynamic_reconfig") for detail.
+For more complicated examples, please see the package dyn_cfg_gui or ros_cv_gui, it is the implementation for rqt_reconfigure using C++ and qt5. Also see [ROS_dynamic_reconfig](https://github.com/WelinLee/ROS_dynamic_reconfig "ROS_dynamic_reconfig"), [ros_cv_qt_gui](https://github.com/WelinLee/ros_cv_qt_gui) and [ros_opencv_pro](https://github.com/WelinLee/ROS_OPENCV_PRO) for detail.
 
 ## TODO
 ```sh
@@ -42,7 +42,7 @@ Then, rosrun test_gui test_gui *or* rosrun qt_ros_test qt_ros_test_node *or* ros
 
 ![ROS_QT_GUI](docs/images/test_gui.png)
 
-To run the rqt_mypkg, just open rqt, and the "rqt first C++ plugin" could be found in the Plugins menu. The effect is below:
+To run the rqt_mypkg, just open rqt (rosrun rqt_gui rqt_gui), and the "rqt first C++ plugin" could be found in the Plugins menu. The effect is below:
 
 ![ROS_QT_GUI](docs/images/rqt_mypkg.png)
 
@@ -54,6 +54,26 @@ If you have a mobile robot such as TurtleBot or else, the slam navigation status
 
 ![ROS_QT_GUI](docs/images/librviz_gui.jpg)
 
-To run the rosrun dyn_cfg_gui dyn_cfg_gui, the effect is shown below.
+Using rosrun dyn_cfg_gui dyn_cfg_gui command, the effect is shown below.
 
 ![ROS_QT_GUI](docs/images/rqt_recfg.png)
+
+The ros&opencv example is also provided as shown below.
+
+![ROS_QT_GUI](docs/images/ros_cv_gui.png)
+
+
+Especially, the ros_cmake package could be separated in a individual directory, not using catkin_make/rosbuild.
+```sh
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
+    $ ./ros_cmake     #the executable program
+```
+The effect is shown below, the topic has been subscribed. Remember to open roscore at first.
+
+![ROS_QT_GUI](docs/images/ros_cmake.png)
+
+
+Enjoy!
