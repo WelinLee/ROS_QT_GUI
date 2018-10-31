@@ -58,12 +58,16 @@ Using rosrun dyn_cfg_gui dyn_cfg_gui command, the effect is shown below.
 
 ![ROS_QT_GUI](docs/images/rqt_recfg.png)
 
-The ros&opencv example is also provided as shown below.
-
+The ros&opencv example is also provided as shown below. 
+```sh
+rosrun ros_cv_gui ros_cv_gui_node
+```
 ![ROS_QT_GUI](docs/images/ros_cv_gui.png)
 
 
-Especially, the ros_cmake package could be separated in a individual directory, not using catkin_make/rosbuild.
+
+###**Especially**,
+the ros_cmake package could be separated in a individual directory, not using catkin_make/rosbuild.
 ```sh
     $ mkdir build
     $ cd build
