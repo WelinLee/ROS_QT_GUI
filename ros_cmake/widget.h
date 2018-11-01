@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QCloseEvent>
+#include <QTimer>
 #include <ros/ros.h>
 #include "ui_widget.h"
 
@@ -23,9 +24,11 @@ public:
 private slots:
     void slot_btn_start();
     void slot_btn_quit();
+    void slot_timer();
 
 private:
     ros::Publisher test_pub_;
+    QTimer *m_timer = nullptr;
     Ui::Widget *ui;
 
 protected:
