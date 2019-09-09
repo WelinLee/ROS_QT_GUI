@@ -11,6 +11,12 @@ In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, s
 * In the rqt_mypkg package, it is the C++ rqt_plugin test depending on rqt_gui_cpp.
 * In the qt_ros_test package, it combines ROS with Qt5 library.
 
+Remeber to add Qt install environment to the CMAKE_PRFIX_PATH such as `set(Qt5_DIR "path/to/cmake/Qt5")` before `find_package(Qt5 REQUIRED COMPONENTS Core Gui Widgets)` if you encounter the following problem.
+
+![ROS_QT_GUI](docs/images/error.png)
+
+
+
 The above three are written in C++ programmer.
 The following two below are written in Python.
 
@@ -80,4 +86,6 @@ The effect is shown below, the topic has been subscribed. Remember to open rosco
 ![ROS_QT_GUI](docs/images/ros_cmake.png)
 
 
+
 Enjoy!
+
