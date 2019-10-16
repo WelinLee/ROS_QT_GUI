@@ -50,9 +50,11 @@ void VizlibTest::slot_btn_display()
         rviz::Display *laser = manager_->createDisplay( "rviz/LaserScan", "adjustable scan", true );
         laser->subProp( "Topic" )->setValue( "/scan" );
         laser->subProp( "Size (m)" )->setValue( "0.1" );
+		
+		rviz::Tool *getpos_tool = manager_->getToolManager()->addTool("rviz/GetGoal");
 
         manager_->startUpdate();
-        ui->pushButton_start->setText("Nondisplay");
+        ui->pushButton_start->setText("NonDisplay");
     }
     else if(i%2 == 1)
     {
