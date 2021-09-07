@@ -13,7 +13,7 @@ In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, s
 
 Remeber to add Qt install environment to the CMAKE_PRFIX_PATH such as `set(Qt5_DIR "path/to/cmake/Qt5")` before `find_package(Qt5 REQUIRED COMPONENTS Core Gui Widgets)` if you encounter the following problem.
 
-![ROS_QT_GUI](docs/images/error.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/error.PNG)
 
 
 
@@ -46,7 +46,7 @@ git clone the project from the corrent URL
 
 Then, `rosrun test_gui test_gui` or `rosrun qt_ros_test qt_ros_test_node` or `rosrun qt4rosgui qt4rosgui_node`. The effect is below:
 
-![ROS_QT_GUI](docs/images/test_gui.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/test_gui.png)
 
 To run the rqt_mypkg, just open rqt (`rosrun rqt_gui rqt_gui`), and the "rqt first C++ plugin" could be found in the Plugins menu. The effect is below:
 
