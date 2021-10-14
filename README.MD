@@ -1,6 +1,7 @@
 ## Author
 - **Welin**  2018.02.23
 - modified in 2018.10.31
+- update in 2021.10.14
 
 ## Overview
 In the project, so many ways are provided to implement ROS-Qt GUI, namely rqt, such as qt4, qt5, pyqt4. Also ROS could be treated as a open-source library to extend some other module by using CMAKE, not just using catkin_make/rosbuild, to make the development more flexible.
@@ -50,25 +51,25 @@ Then, `rosrun test_gui test_gui` or `rosrun qt_ros_test qt_ros_test_node` or `ro
 
 To run the rqt_mypkg, just open rqt (`rosrun rqt_gui rqt_gui`), and the "rqt first C++ plugin" could be found in the Plugins menu. The effect is below:
 
-![ROS_QT_GUI](docs/images/rqt_mypkg.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/rqt_mypkg.png)
 
 To run ros_pyqt *or* pyqt_gui, just using the command `python ros_pyqt` or `python pyqt_gui`. The effect is below:
 
-![ROS_QT_GUI](docs/images/pyqt_gui.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/pyqt_gui.png)
 
 If you have a mobile robot such as TurtleBot or else, the slam navigation status could be shown as below. Just `run ros vizlib_test vizlib_test_node`.
 
-![ROS_QT_GUI](docs/images/librviz_gui.jpg)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/librviz_gui.jpg)
 
 Using `rosrun dyn_cfg_gui dyn_cfg_gui` command, the effect is shown below.
 
-![ROS_QT_GUI](docs/images/rqt_recfg.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/rqt_recfg.png)
 
 The ros&opencv example is also provided as shown below. 
 ```sh
     $ rosrun ros_cv_gui ros_cv_gui_node
 ```
-![ROS_QT_GUI](docs/images/ros_cv_gui.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/ros_cv_gui.png)
 
 
 
@@ -83,7 +84,7 @@ the ros_cmake package could be separated in a individual directory, not using ca
 ```
 The effect is shown below, the topic has been subscribed. Remember to open roscore at first.
 
-![ROS_QT_GUI](docs/images/ros_cmake.png)
+![ROS_QT_GUI](https://github.com/WelinLee/ROS_QT_GUI/blob/master/docs/ros_cmake.png)
 
 
 
